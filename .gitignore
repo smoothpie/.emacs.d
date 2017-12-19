@@ -8,6 +8,8 @@
 *~
 .cask
 projectile-bookmarks.eld
+ac-comphist.dat
+network-security.data
 /.edbi-ds-history
 /.mc-lists.el
 /bookmarks
