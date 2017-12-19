@@ -1,0 +1,17 @@
+/auto-save-list
+/elpa
+/games
+/magithub
+/url
+/var
+/snippets
+*~
+.cask
+projectile-bookmarks.eld
+/.edbi-ds-history
+/.mc-lists.el
+/bookmarks
+/tramp
+/recentf
+/auto-save-list
+session*
