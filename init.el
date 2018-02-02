@@ -35,7 +35,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (pdf-tools auto-complete sourcerer-theme org-babel-eval-in-repl which-key perspective helm-projectile)))
+    (csharp-mode helm-ag pdf-tools auto-complete sourcerer-theme org-babel-eval-in-repl which-key perspective helm-projectile)))
  '(persp-mode t)
  '(send-mail-function (quote smtpmail-send-it))
  '(smtpmail-smtp-server "smtp.gmail.com")
@@ -132,3 +132,10 @@
 (add-to-list 'load-path
              (expand-file-name "/home/smoothpie/ledger/source/lisp/"))
 (add-to-list 'auto-mode-alist '("\\.ledger$" . ledger-mode))
+
+
+;; C# Mode
+(defun my-csharp-mode-hook ()
+  (electric-pair-local-mode 1) 
+  )
+(add-hook 'csharp-mode-hook 'my-csharp-mode-hook)

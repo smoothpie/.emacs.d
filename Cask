@@ -41,7 +41,7 @@
 (depends-on "restclient" :archive "melpa")
 (depends-on "sx" :archive "melpa")
 
-
+(depends-on "csharp-mode" :archive "melpa")
 
 
 
