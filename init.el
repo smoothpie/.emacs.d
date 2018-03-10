@@ -35,7 +35,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (csharp-mode helm-ag pdf-tools auto-complete sourcerer-theme org-babel-eval-in-repl which-key perspective helm-projectile)))
+    (go-mode csharp-mode helm-ag pdf-tools auto-complete sourcerer-theme org-babel-eval-in-repl which-key perspective helm-projectile)))
  '(persp-mode t)
  '(send-mail-function (quote smtpmail-send-it))
  '(smtpmail-smtp-server "smtp.gmail.com")

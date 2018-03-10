@@ -43,5 +43,4 @@
 
 (depends-on "csharp-mode" :archive "melpa")
 
-
-
+(depends-on "go-mode" :archive "melpa")
